@@ -5,7 +5,7 @@ const NavBar = () => {
     return (
         <nav>
       <div>#AdoptAdas</div>
-      <i class="fa fa-bars"></i>
+      <i className="fa fa-bars"></i>
     </nav>
     )
 }

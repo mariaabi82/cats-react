@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar'
+import Main from './components/Main'
 import Card from './components/Card'
 import Footer from './components/Footer'
 
@@ -72,6 +73,7 @@ function App() {
   return (
     <>
       <NavBar />
+      <Main />
       <div className="App">
 
         {
