@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import Card from './Card'
+import NavBar from './components/NavBar'
+import Card from './components/Card'
+import Footer from './components/Footer'
 
 const cats = [
   {
@@ -68,18 +70,22 @@ const cats = [
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <NavBar />
+      <div className="App">
 
-      {
-        cats.map((cat, i) =>
-          <Card key={i} catName={cat.name} img={cat.img} desc={cat.shortDesc} />
+        {
+          cats.map((cat, i) =>
+            <Card key={i} catName={cat.name} img={cat.img} desc={cat.shortDesc} />
 
-        )
-      }
+          )
+        }
 
 
 
-    </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 
