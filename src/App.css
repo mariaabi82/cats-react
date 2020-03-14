@@ -4,8 +4,7 @@ body {
     background-color: #fed201;
     margin: 20px auto;
     width: 90%;
-    display: flex;
-    overflow: hidden;
+
     color: #000;
 }
 
